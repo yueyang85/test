@@ -65,3 +65,4 @@ class AdalineGD(object):
     def predict(self, X):
         """Return class label after unit step"""
         return np.where(self.activation(X) >= 0.0, 1, -1)
+    
